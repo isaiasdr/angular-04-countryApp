@@ -1,0 +1,32 @@
+<h2>Paises</h2>
+<hr>
+
+<ul class="list-group">
+  <li
+    routerLink="countries/by-capital"
+    class="list-group-item"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    {{ 'by capital' | titlecase }}
+  </li>
+
+  <li
+    routerLink="countries/by-country"
+    class="list-group-item"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    {{ 'by country' | titlecase }}
+  </li>
+
+  <li
+    routerLink="countries/by-region"
+    class="list-group-item"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    {{ 'by region' | titlecase }}
+  </li>
+
+</ul>
